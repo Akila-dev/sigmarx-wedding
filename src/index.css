@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--bg: white;
+	--text: #8a8a8e;
+	--header: #000000;
+
+	--neutral: #f2f2f7;
+	--dark: #1c1c1e;
+	--white: #ffffff;
+}
+
+body {
+	width: 100%;
+	/* height: 100% !important; */
+}
+
+a {
+	@apply text-sm;
+}
+
+p {
+	@apply text-sm text-[--text] !leading-[170%];
+}
+span {
+	@apply text-[--text];
+}
+
+h1,
+h2,
+h3 {
+	@apply text-[--header] font-bold;
+}
+h1 {
+	@apply text-[1.65rem] md:text-3xl lg:text-5xl !leading-[120%];
+}
+
+.container {
+	@apply px-5 md:px-[3rem] lg:px-[4rem] max-w-[1240px] mx-auto;
+}
