@@ -6,11 +6,11 @@ import { Home } from './pages';
 function App() {
 	return (
 		<>
-			<p className="bg-[--bg]">
+			<div className="bg-[--bg]">
 				<Routes>
 					<Route exact path="/" element={<Home />} />
 				</Routes>
-			</p>
+			</div>
 		</>
 	);
 }
