@@ -49,7 +49,7 @@ const Home = () => {
 		>
 			<div className="h-screen w-full absolute top-0 left-0 overflow-hidden">
 				<motion.img
-					initial={{ scale: 0.8 }}
+					// initial={{ scale: 0.8 }}
 					animate={{ scale: [1.2, 1] }}
 					transition={{
 						type: 'ease',
